@@ -1,0 +1,81 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.App__background {
+  opacity: 0.2;
+  width: 100%;
+  top: 0;
+  position: fixed;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.interval-container {
+  display: flex;
+  margin: 0 40px;
+  align-items: center;
+}
+
+.length-container {
+  display: flex;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 10px;
+  height: 25px;
+  background-color: #263646;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #eee;
+  width: 70px;
+  border-radius: 2px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.interval-length {
+  font-size: 2rem;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+.timer-container {
+  border: 2px solid #263646;
+  margin-top: 10px;
+  border-radius: 25px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  padding: 10px;
+}
+
+.timer-display {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.timer-actions {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
